@@ -24,6 +24,48 @@
     text-decoration: underline;
 }
 
+.flexbox-section {
+    background-color: #1F2937; /* Background color for the flexbox section */
+    color: #f9faf8; /* Text color inside the flexbox section */
+    display: flex;
+    justify-content: space-between; /* Space between content and image */
+    align-items: center;
+    padding: 20px; /* Add padding to the flexbox section */
+}
+
+.flexbox-content {
+    max-width: 60%; /* Adjust the maximum width of the content */
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold; /* Extra-bold */
+    margin: 0; /* Remove default margin */
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb; /* Subtext color */
+    margin: 10px 0; /* Add spacing around subtext */
+}
+
+.image-placeholder {
+    width: 450px;
+    height: 200px;
+    background-color: #5A5A5A;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: center;
+    margin: 0; /* Remove default margin */
+}
+
 .square-container {
     display: flex;
     justify-content: center; 
