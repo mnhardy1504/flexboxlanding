@@ -1,0 +1,54 @@
+.square-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap; 
+    background-color: white;
+    padding: 10px; 
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: white; 
+    border: 2px solid #3882F6;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    color: #3882F6; 
+    margin: 10px; 
+    border-radius: 5px; 
+}
+
+.square-text {
+    margin-top: 10px;
+}
+
+.random {
+    text-align: center;
+    justify-content: center;
+    font-size: 36px
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 10px; /* Add spacing between text and author */
+}
+
+.quote-author {
+    font-style: italic;
+    color: #1F2937;
+    text-align: right;
+}
+
+
